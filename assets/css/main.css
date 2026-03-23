@@ -4382,3 +4382,57 @@ ul.links li a {
 ul.links li a:hover {
     color: #00d9ff;        /* color al pasar el mouse */
 }
+
+
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.feature-box {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 1.5em;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.feature-box img {
+  width: 100%;
+  height: 180px;       /* 🔑 todas las imágenes tendrán el mismo alto */
+  object-fit: cover;   /* 🔑 recorta para que se vean uniformes */
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+.feature-box h3 {
+  margin-top: 0.5em;
+  color: #00d9ff;
+}
+
+.feature-box p {
+  font-size: 0.95em;
+  line-height: 1.4em;
+}
+
+/* Responsivo */
+@media screen and (max-width: 980px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
