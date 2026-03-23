@@ -4188,7 +4188,7 @@ input, select, textarea {
 
 .wrapper.style5 {
 	background-color: #1e3a8a;
-	background-image: linear-gradient(135deg, rgba(30, 58, 138, 0.95), rgba(59, 130, 246, 0.95));
+	background-image: none;    /* elimina el gradiente */
 }
 
 .clients-carousel-container {
