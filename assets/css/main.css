@@ -3381,13 +3381,17 @@ input, select, textarea {
 		    padding: 10em 0 4.75em 0;
 		    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/brianpenny-ai-generated-8540921_1920.jpg");
 		    background-size: cover;
-		    background-position: center;
 		    background-attachment: fixed;
+		    background-position: center;
+		    background-repeat: no-repeat;
+		    min-height: 100vh;
 	}
 
 		#banner .inner {
 			margin: 0 auto;
 			width: 55em;
+			position: relative;
+  			z-index: 2;
 		}
 
 		#banner .logo {
