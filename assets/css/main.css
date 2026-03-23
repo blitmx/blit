@@ -4371,3 +4371,14 @@ input, select, textarea {
     font-size: 0.95em;
     line-height: 1.4em;
 }
+
+
+ul.links li a {
+    color: white;          /* cambia el color del texto */
+    text-decoration: none; /* quita el subrayado */
+    font-weight: 500;      /* opcional, para dar más presencia */
+}
+
+ul.links li a:hover {
+    color: #00d9ff;        /* color al pasar el mouse */
+}
