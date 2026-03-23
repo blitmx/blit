@@ -4436,3 +4436,18 @@ ul.links li a:hover {
   }
 }
 
+
+
+.logo img {
+  max-width: 180px;   /* límite de ancho */
+  height: auto;       /* mantiene proporción */
+  object-fit: contain; /* evita que se deforme */
+}
+
+@media screen and (max-width: 736px) {
+  .logo img {
+    max-width: 140px; /* más pequeño en móvil */
+    height: auto;
+  }
+}
+
