@@ -3405,10 +3405,10 @@ input, select, textarea {
 				cursor: default;
 				display: inline-block;
 				font-size: 2em;
-				height: 2.25em;
-				line-height: 2.25em;
+				height: 5em;
+				line-height: 5em;
 				text-align: center;
-				width: 2.25em;
+				width: 5em;
 			}
 
 		#banner h2 {
@@ -3458,7 +3458,7 @@ input, select, textarea {
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
-			text-transform: uppercase;
+	        text-transform: none;  /* ← Agrega esta línea */
 		}
 
 		@media screen and (max-width: 1280px) {
