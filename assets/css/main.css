@@ -4303,7 +4303,7 @@ input, select, textarea {
 	background-color: rgba(255, 255, 255, 0.7);
 }
 
-/* Responsive */
+/* Responsive CARACTERISTICAS */
 
 @media screen and (max-width: 980px) {
 	.clients-grid {
@@ -4335,6 +4335,34 @@ input, select, textarea {
 		height: 40px;
 		font-size: 1em;
 	}
+}
+
+.carousel-dots {
+  display: flex;              /* los coloca en fila */
+  justify-content: center;    /* los centra horizontalmente */
+  align-items: center;
+  margin-top: 1.5em;
+  padding: 0;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 6px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dot.active {
+  background-color: #00d9ff;   /* color destacado */
+  transform: scale(1.2);       /* círculo activo más grande */
+}
+
+.dot:hover {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .features-grid {
