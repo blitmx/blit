@@ -3517,7 +3517,10 @@ input, select, textarea {
 				}
 
 				#banner p {
-					font-size: 0.8em;
+				  font-size: 1.2em;       /* más grande */
+				  line-height: 1.6em;     /* más aire entre líneas */
+				  color: #fff;            /* blanco puro para contraste */
+				  text-shadow: 0 2px 4px rgba(0,0,0,0.6); /* sombra suave para resaltar *
 				}
 
 		}
@@ -4439,22 +4442,16 @@ ul.links li a:hover {
 
 
 .logo img {
-  max-width: 180px;   /* límite de ancho */
+  max-width: 600px;   /* más grande en escritorio */
   height: auto;       /* mantiene proporción */
-  object-fit: contain; /* evita que se deforme */
+  object-fit: contain;
 }
 
 @media screen and (max-width: 736px) {
   .logo img {
-    max-width: 140px; /* más pequeño en móvil */
+    max-width: 300px; /* más pequeño en móvil */
     height: auto;
   }
 }
 
-
-.logo img {
-  max-height: 60px;   /* ajusta según el alto que quieras */
-  width: auto;        /* mantiene proporción */
-  object-fit: contain;
-}
 
