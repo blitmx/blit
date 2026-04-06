@@ -4304,7 +4304,7 @@ input, select, textarea {
 	background-color: rgba(255, 255, 255, 0.7);
 }
 
-/* Responsive CARACTERISTICAS */
+/* Responsive */
 
 @media screen and (max-width: 980px) {
 	.clients-grid {
@@ -4337,7 +4337,6 @@ input, select, textarea {
 		font-size: 1em;
 	}
 }
-
 .carousel-dots {
   display: flex;              /* los coloca en fila */
   justify-content: center;    /* los centra horizontalmente */
