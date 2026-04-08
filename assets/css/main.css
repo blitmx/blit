@@ -2789,3 +2789,8 @@ body.is-preload #banner p {
 		font-size: 1em;
 	}
 }
+
+/* Ocultar los dots del carrusel */
+.carousel-dots {
+	display: none !important;
+}
