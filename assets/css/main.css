@@ -2790,7 +2790,15 @@ body.is-preload #banner p {
 	}
 }
 
-/* Ocultar los dots del carrusel */
-.carousel-dots {
-	display: none !important;
+/* Que el logo se vea mejor */
+#header .logo img {
+	max-width: 150px;
+	height: auto;
+	object-fit: contain;
+}
+
+@media screen and (max-width: 736px) {
+	#header .logo img {
+		max-width: 120px;
+	}
 }
