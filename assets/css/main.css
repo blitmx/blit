@@ -2722,3 +2722,32 @@ body.is-preload #banner p {
 		font-size: 1em;
 	}
 }
+
+/* ===== CAROUSEL FIXES ===== */
+
+/* Remover border-radius de los logos del carrusel */
+.client-logo {
+	border-radius: 0 !important;
+}
+
+.client-logo img {
+	border-radius: 0 !important;
+}
+
+/* Asegurar que el carousel no tenga bordes redondeados */
+.clients-carousel-container {
+	border-radius: 0;
+}
+
+.carousel-slide {
+	border-radius: 0;
+}
+
+.carousel-slide.active {
+	border-radius: 0;
+}
+
+/* Remover cualquier border-radius de la grid */
+.clients-grid {
+	border-radius: 0;
+}
